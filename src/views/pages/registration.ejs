@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+    <head>
+        <%- include('../head'); %>
+            <title>Registration</title>
+    </head>
+
+    <body class="col-12 ">
+
+        <%- include('../backHeader'); %>
+
+            <div class="d-flex align-items-center justify-content-center bg-light mb-3 p-3 " style="height: 100%;">
+
+                <div class="card col-11" style="margin-top: 50px; height: 600px;">
+                    <div class="row">
+                        <div class="col col-md-6">
+                            <img src="/img/registration.jpg" class="reg-img">
+                        </div>
+                        <div class="col col-md-6">
+                            <div class="p-5">
+                                <form>
+                                    <!-- 2 column grid layout with text inputs for the first and last names -->
+                                    <div class="row mb-4">
+                                        <h2 class="text-primary p-3">Registration</h2>
+                                        <div class="col">
+                                            <div class="form-outline">
+                                                <input type="text" id="form6Example1" class="form-control" />
+                                                <label class="form-label" for="form6Example1">First name</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-outline">
+                                                <input type="text" id="form6Example2" class="form-control" />
+                                                <label class="form-label" for="form6Example2">Last name</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Text input -->
+                                    <div class="form-outline mb-4">
+                                        <input type="text" id="form6Example3" class="form-control" />
+                                        <label class="form-label" for="form6Example3">User ID</label>
+                                    </div>
+
+                                    <!-- Email input -->
+                                    <div class="form-outline mb-4">
+                                        <input type="email" id="form6Example5" class="form-control" />
+                                        <label class="form-label" for="form6Example5">Email</label>
+                                    </div>
+
+                                    <!-- Number input -->
+                                    <div class="form-outline mb-4">
+                                        <input type="number" id="form6Example6" class="form-control" />
+                                        <label class="form-label" for="form6Example6">Phone</label>
+                                    </div>
+
+                                    <!-- Message input -->
+                                    <div class="form-outline mb-4">
+                                        <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+                                        <label class="form-label" for="form6Example7">Address</label>
+                                    </div>
+                                    <!-- Submit button -->
+                                    <button type="submit" class="btn btn-primary btn-block mb-4">Add User</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <%- include('../footer'); %>
+    </body>
+
+</html>
