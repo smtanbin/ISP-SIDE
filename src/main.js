@@ -54,6 +54,15 @@ app.get("/admin", function(req, res) {
   res.render('admin/admin');
 });
 
+const port = 3000
+app.listen(port);
+console.log('Server is listening on port '+port);
 
-app.listen(80);
-console.log('Server is listening on port 80');
+// const mysql = require('mysql');
+
+// const con = mysql.createConnection({
+//   host: "localhost",
+//   user: "lorian",
+//   password: "admin",
+//   database: "lorian"
+// });
