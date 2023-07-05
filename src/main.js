@@ -54,9 +54,9 @@ app.get("/admin", function(req, res) {
   res.render('admin/admin');
 });
 
-const port = 3000
+const port = 80
 app.listen(port);
-console.log('Server is listening on port '+port);
+console.log('Server is listening on port '+ port);
 
 // const mysql = require('mysql');
 
