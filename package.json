@@ -4,8 +4,8 @@
 	"description": "A simple webside for ISP",
 	"main": "src/main.js",
 	"scripts": {
-		"build": "npm ci",
-		"dev": "nodemon src/main.js"
+
+		"dev": "nodemon src/main.js",
 		"start": "node src/main.js"
 	},
 	"author": "Tanbin hassan bappi",
