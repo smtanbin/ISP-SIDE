@@ -56,6 +56,6 @@ jobs:
         with:
           node-version: 14
       - name: Install app dependencies
-        run: npm ci
+        run: npm install
       - name: Start the app
         run: npm start
